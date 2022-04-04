@@ -1,6 +1,5 @@
 from typing import Optional
 import requests
-# from misc import token
 from yobit import get_btc
 from time import sleep
 
@@ -15,10 +14,8 @@ try:
 except ImportError:
     pass
 
-
 URL = f'https://api.telegram.org/bot{token}/'
 
-# если возникает необходимость хранения промежуточных состояний (id последнего элемента), то это знак, что нужно использовать класс
 global update_id
 update_id = 0
 
