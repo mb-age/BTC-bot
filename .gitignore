@@ -127,3 +127,9 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# my_files
+misc.py
+my_message.py
+.idea
+updates.json
