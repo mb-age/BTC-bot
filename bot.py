@@ -10,7 +10,6 @@ token = ''
 try:
     from misc import token
     from my_message import *
-
 except ImportError:
     pass
 
